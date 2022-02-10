@@ -121,7 +121,7 @@ public class IdleConfig extends Config.AbstractConfig {
             
             breakSpeed = SPEC.define( new DoubleField( "break_speed", 0.5, DoubleField.Range.POSITIVE,
                     "The block breaking speed multiplier for mobs griefing blocks, relative to the player's block breaking speed." ) );
-            madCreepers = SPEC.define( new BooleanField( "mad_creepers", true,
+            madCreepers = SPEC.define( new BooleanField( "mad_creepers", false,
                     "If true, creepers will be upset about not having arms to grief blocks with and resort to what they know best." ) );
             
             SPEC.newLine();
